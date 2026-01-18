@@ -1,0 +1,16 @@
+{
+  "repository": { "full_name": "tuUser/tuRepo" },
+  "ref": "refs/heads/main",
+  "pusher": { "name": "tuUser" },
+  "compare": "https://github.com/tuUser/tuRepo/compare/...",
+  "commits": [
+    {
+      "id": "abcdef123456",
+      "message": "Prueba de webhook desde event.sample.json",
+      "author": { "name": "tuUser" },
+      "added": [],
+      "modified": ["client/functions/f_inventory.lua", "server/functions/f_player.lua"],
+      "removed": []
+    }
+  ]
+}
